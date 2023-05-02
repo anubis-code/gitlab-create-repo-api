@@ -1,0 +1,17 @@
+[
+    {
+        "name": "<name>",
+        "namespace_id": "<ID>",
+        "visibility": "internal"
+    },
+    {
+        "name": "<name>",
+        "namespace_id": "<ID>",
+        "visibility": "internal"
+    },
+    {
+        "name": "<name>",
+        "namespace_id": "<ID>",
+        "visibility": "internal"
+    }
+]
