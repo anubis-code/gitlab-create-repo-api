@@ -1,5 +1,5 @@
-import requests
 import json
+import requests
 import urllib3
 
 with open('./repo.json', 'r') as f:
@@ -12,3 +12,4 @@ for jfm in jfm_dict:
     data = {'name': jfm['name'], 'namespace_id': jfm['namespace_id'], 'visibility': jfm['visibility']}
     urllib3.disable_warnings()
     r = requests.post(gitlab_url, data=json.dumps(data), headers=headers, verify=False)
+    
